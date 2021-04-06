@@ -1,0 +1,21 @@
+{
+  "name": "get-my-3070",
+  "version": "1.0.0",
+  "description": "A barebones, Axios-powered utility that checks for RTX 3070 at Best Buy every 3 seconds, then opens your browser as soon as it's available.",
+  "main": "index.js",
+  "author": "Cameron Hermens",
+  "contributors": ["Justin Beck"],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "open": "^7.3.0",
+    "promptly": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "node index"
+  }
+}
